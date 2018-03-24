@@ -1,13 +1,15 @@
  body {
    text-align:center;
+   background-color: lightblue;
  }
 
- header.obr {
-   background-image:url("resources/images/the-flatiron-building.png");
+ .header {
+   background: url("resources/images/the-flatiron-building.png");
    font-family:helvetica;
    font-size:70px;
    font-weight:bold;
    color:grey;
+
  }
 
 
@@ -23,9 +25,10 @@ ul {
   font-size:18px;
   color:white;
   text-decoration:none;
+  list-style-type: none;
 }
 
-ul li {
+ul li a{
   font-family:Helvetica;
   font-size:18px;
   color:white;
@@ -53,11 +56,18 @@ p {
 
 .nazov {
   background: url("resources/images/the-flatiron-building.png");
-
   font-family:Helvetica;
   font-size:23px;
   font-weight:bold;
   color:red;
+}
+
+footer {
+  text-align:center;
+  font-family:Helvetica;
+  font-size:11px;
+  color:white
+  background-color:dimgray;
 }
 
 .brand {
@@ -65,11 +75,4 @@ p {
   font-size:11px;
   color:white
 
-}
-
-footer {
-  font-family:Helvetica;
-  font-size:11px;
-  color:white
-  background-color:dimgray;
 }
