@@ -1,15 +1,17 @@
- body {
+body {
    text-align:center;
-   background-color: lightblue;
+   /*background-color: lightblue;*/
  }
 
- .header {
-   background: url("resources/images/the-flatiron-building.png");
+ header {      
+   
+   /*background-image: url('pozadie.jpg');*/
+   background-color:yellow;
    font-family:helvetica;
    font-size:70px;
    font-weight:bold;
    color:grey;
-
+     
  }
 
 
@@ -55,7 +57,9 @@ p {
 }
 
 .nazov {
-  background: url("resources/images/the-flatiron-building.png");
+    
+  background-image: url('resources/images/the-flatiron-building.png');
+    background-color:yellow;
   font-family:Helvetica;
   font-size:23px;
   font-weight:bold;
@@ -66,8 +70,12 @@ footer {
   text-align:center;
   font-family:Helvetica;
   font-size:11px;
-  color:white
-  background-color:dimgray;
+  color:white;
+    background-color:grey;
+}
+
+footer a {
+    text-decoration:none;
 }
 
 .brand {
